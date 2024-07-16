@@ -21,6 +21,11 @@ function StudentSidebar() {
             Course Information
           </li>
         </NavLink>
+        <NavLink to="course-module">
+          <li className="px-4 py-2 cursor-pointer hover:bg-gray-500 rounded">
+            Course Module
+          </li>
+        </NavLink>
 
         <NavLink to="student-info">
           <li className="px-4 py-2 cursor-pointer hover:bg-gray-500 rounded">
@@ -28,7 +33,7 @@ function StudentSidebar() {
           </li>
         </NavLink>
 
-        <NavLink to="update_student-info">
+        <NavLink to="update-student-info">
           <li className="px-4 py-2 cursor-pointer hover:bg-gray-500 rounded">
             Update Student Info
           </li>

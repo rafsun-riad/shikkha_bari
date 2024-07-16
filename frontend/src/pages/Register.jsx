@@ -1,12 +1,18 @@
 import { Link } from 'react-router-dom';
 import Button from '../components/Button';
+import shikkhabariblack_slogan from '../assets/shikkhabariblack_slogan.png';
 
 function Register() {
   function handleSubmit(e) {
     e.preventDefault();
   }
   return (
-    <div className=" bg-backgroundPrimary flex items-center justify-center h-screen w-screen">
+    <div className=" bg-backgroundPrimary flex flex-col gap-2 items-center justify-center h-screen w-screen">
+      <img
+        className="h-52 w-52"
+        src={shikkhabariblack_slogan}
+        alt="shikkha bari black slogan"
+      />
       <div className=" p-4 md:p-8 bg-white rounded-md w-96 shadow-lg">
         <h2 className="text-center text-4xl font-bold mb-4">Sign Up</h2>
 
@@ -66,7 +72,7 @@ function Register() {
         <div className="h-[1px] bg-gray-300 my-4"></div>
         <p className="text-center text-sm">
           Already have an account? Click here{' '}
-          <Link className="text-blue-600 hover:underline" to="/login">
+          <Link className="text-blue-600 hover:underline" to="/">
             Sign In
           </Link>
         </p>

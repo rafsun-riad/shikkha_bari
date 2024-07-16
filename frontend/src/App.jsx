@@ -9,19 +9,21 @@ import StudentInfo from './components/StudentInfo';
 import StudentInfoUpdate from './components/StudentInfoUpdate';
 import StudentNotice from './components/StudentNotice';
 import StudentProfile from './components/StudentProfile';
+import StudentCourseModule from './components/StudentCourseModule';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route index element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/student-dashboard" element={<StudentDashboard />}>
           <Route index element={<StudentHome />} />
           <Route path="payment" element={<PaymentHistory />} />
           <Route path="course-info" element={<StudentCourseInfo />} />
+          <Route path="course-module" element={<StudentCourseModule />} />
           <Route path="student-info" element={<StudentInfo />} />
-          <Route path="update_student-info" element={<StudentInfoUpdate />} />
+          <Route path="update-student-info" element={<StudentInfoUpdate />} />
           <Route path="notice" element={<StudentNotice />} />
           <Route path="profile" element={<StudentProfile />} />
         </Route>
