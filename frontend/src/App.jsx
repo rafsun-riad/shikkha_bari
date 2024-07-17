@@ -5,7 +5,7 @@ import StudentDashboard from './pages/StudentDashboard';
 import StudentHome from './components/StudentHome';
 import PaymentHistory from './components/PaymentHistory';
 import StudentCourseInfo from './components/StudentCourseInfo';
-import StudentInfo from './components/StudentInfo';
+import StudentInfoForm from './components/StudentInfoForm';
 import StudentInfoUpdate from './components/StudentInfoUpdate';
 import StudentNotice from './components/StudentNotice';
 import StudentProfile from './components/StudentProfile';
@@ -22,7 +22,7 @@ function App() {
           <Route path="payment" element={<PaymentHistory />} />
           <Route path="course-info" element={<StudentCourseInfo />} />
           <Route path="course-module" element={<StudentCourseModule />} />
-          <Route path="student-info" element={<StudentInfo />} />
+          <Route path="student-info" element={<StudentInfoForm />} />
           <Route path="update-student-info" element={<StudentInfoUpdate />} />
           <Route path="notice" element={<StudentNotice />} />
           <Route path="profile" element={<StudentProfile />} />

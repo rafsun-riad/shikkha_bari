@@ -17,7 +17,11 @@ function StudentHome() {
         <p>Gender: Male</p>
         <p>Date of Birth: 3rd January, 1996</p>
       </div>
-      <p className="mt-3 text-xl">NID:3308230808432</p>
+      <div className="flex items-center mt-3 text-xl gap-3">
+        <p>Batch No: 1</p>
+        <p>Course: Web development (6 Months)</p>
+        <p>NID:3308230808432</p>
+      </div>
       <p className="mt-3 text-xl">
         Present Address: 181/2 Fazlulbari Chowdhuri Road, Mathpara, Upozila,
         Kushtia
