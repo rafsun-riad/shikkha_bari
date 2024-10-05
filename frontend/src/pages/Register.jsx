@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import Button from '../components/Button';
-import shikkhabariblack_slogan from '../assets/shikkhabariblack_slogan.png';
 
 function Register() {
   function handleSubmit(e) {
@@ -10,7 +9,7 @@ function Register() {
     <div className=" bg-backgroundPrimary flex flex-col gap-2 items-center justify-center h-screen w-screen">
       <img
         className="h-52 w-52"
-        src={shikkhabariblack_slogan}
+        src="/images/shikkhabariblack_slogan.png"
         alt="shikkha bari black slogan"
       />
       <div className=" p-4 md:p-8 bg-white rounded-md w-96 shadow-lg">

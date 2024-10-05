@@ -1,9 +1,11 @@
-import profileDefault from '../assets/profileDefault.jpg';
-
 function StudentHome() {
   return (
     <div className="flex flex-col items-center justify-center h-full w-full overflow-y-scroll">
-      <img className="h-60 w-60" src={profileDefault} alt="profile default" />
+      <img
+        className="h-60 w-60"
+        src="/images/profileDefault.jpg"
+        alt="profile default"
+      />
       <p className="mt-5 text-xl">Name: Md Rafsun Ul Haque</p>
       <div className="flex gap-6 mt-3 text-xl">
         <p>Father&apos;s Name: Md Mostayedul Haque</p>

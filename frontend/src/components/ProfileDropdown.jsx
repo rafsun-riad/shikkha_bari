@@ -1,8 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import profileDefault from '../assets/profileDefault.jpg';
-
 function ProfileDropdown() {
   const [profileMenuOpen, setProfileMenuOpen] = useState(false);
 
@@ -29,7 +27,7 @@ function ProfileDropdown() {
           ref={imageRef}
           onClick={() => setProfileMenuOpen(!profileMenuOpen)}
           className=" h-14 w-14 rounded-full object-cover border-[2px] border-gray-300 cursor-pointer"
-          src={profileDefault}
+          src="/images/profileDefault.jpg"
           alt=""
         />
         {profileMenuOpen && (

@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 function StudentSidebar() {
   return (
-    <div className="w-[16%] h-full bg-gray-600 p-2">
+    <div className="w-full h-full bg-gray-600 p-2">
       <ul className=" text-white text-xl">
         <NavLink to="">
           <li className="px-4 py-2 cursor-pointer hover:bg-gray-500 rounded">
