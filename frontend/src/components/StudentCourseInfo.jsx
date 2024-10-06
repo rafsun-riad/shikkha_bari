@@ -1,18 +1,20 @@
 function StudentCourseInfo() {
   return (
     <div className="flex flex-col items-center justify-center h-full w-full">
-      <h2 className="text-4xl underline mb-5">Course Information</h2>
+      <h2 className=" text-2xl md:text-4xl underline mb-5">
+        Course Information
+      </h2>
 
       <div className="w-full">
-        <h4 className="text-2xl text-center">6 Months Courses</h4>
-        <div className="grid p-2 grid-cols-4 w-full border-y-[2px] border-gray-300 text-xl mt-4 text-center">
+        <h4 className=" text-xl md:text-2xl text-center">6 Months Courses</h4>
+        <div className="grid p-2 grid-cols-4 w-full border-y-[2px] border-gray-300 text-sm md:text-xl mt-4 text-center">
           <p>Course Name</p>
           <p>Course Fee</p>
           <p>Class Time</p>
           <p>Course Taken</p>
         </div>
 
-        <div className="grid p-2 grid-cols-4 w-full border-b-[2px] border-gray-300 text-xl text-center">
+        <div className="grid p-2 grid-cols-4 w-full border-b-[2px] border-gray-300 text-sm md:text-xl text-center">
           <p>Web Design & Development</p>
           <p>12000</p>
           <p>1 hour</p>
@@ -31,7 +33,7 @@ function StudentCourseInfo() {
           </p>
         </div>
 
-        <div className="grid p-2 grid-cols-4 w-full border-b-[2px] border-gray-300 text-xl text-center">
+        <div className="grid p-2 grid-cols-4 w-full border-b-[2px] border-gray-300 text-sm md:text-xl text-center">
           <p>Digital Marketing</p>
           <p>8000</p>
           <p>1 hour</p>
