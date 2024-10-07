@@ -1,7 +1,13 @@
 function StudentNotice() {
+  const notice = '';
+
   return (
     <div className="flex items-center justify-center h-full w-full">
-      <h1 className="text-5xl">Student Notice</h1>
+      {notice ? (
+        <p></p>
+      ) : (
+        <p className="text-2xl text-center">Notice hasn&apos;t given yet!</p>
+      )}
     </div>
   );
 }
